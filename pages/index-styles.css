@@ -1,6 +1,6 @@
 @charset "utf-8";/*Nedennstående er kilde til fonttypen*/
 @import url('https://fonts.googleapis.com/css?family=PT+Serif');
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script');
 
 
 /*Body reset*/
@@ -15,33 +15,35 @@ body{
 /*Headpiece*/
 #hp{
 	background: url(../images/menu.tryout5.png);
-	border-bottom: 5px solid rgba(73, 73, 73, 0.5);
+	border-bottom: 5px solid rgba(0, 0, 0, 0.6);
 	Position: absolute;
 	width: 98.7vw;
-	height: 30vh;
+	height: 25vh;
 }
 
 
 .h1-d{
-	font-family: 'great vibes', serif;
-	text-shadow: 6px 9px 6px rgba(70, 70, 70, 1);
+	font-family: 'Pinyon Script', serif;
+	text-shadow: 2px 3px 2px rgba(70, 70, 70, 0.8);
 	color: #414040;
 	font-size: 70px;
+	font-weight: 200;
 	position: absolute;
-		bottom: 75px;
-		left: 200px;
-	text-decoration: underline;	
+		bottom: 58px;
+		left: 210px;
+	text-decoration: none;
 }
 
 .h1-bm{
-	font-family: 'great vibes', serif;
-	text-shadow: 6px 9px 6px rgba(70, 70, 70, 1);
+	font-family: 'Pinyon Script', serif;
+	text-shadow: 2px 3px 2px rgba(70, 70, 70, 0.8);
 	color: #414040;
-	font-size: 50px;
+	font-size: 55px;
+	font-weight: 200;
 	position: absolute;
-		top: 85px;
-		left: 332px;
-	text-decoration: underline;
+		top: 68px;
+		left: 330px;
+	text-decoration: none;
 }
 
 /*navigation: menu*/
@@ -50,8 +52,12 @@ nav{
 	font-size: 20px;
 	color: #414040;
 	position: absolute;
-	top: 145px;
+	top: 100px;
 	Left: 850px;
+}
+.x{
+	text-shadow:2px 3px 2px rgba(70, 70, 70, 0.6);
+	text-decoration: none;
 }
 .contact{
 	border-left: 2px solid rgba(73, 73, 73, 0.5);
@@ -63,7 +69,7 @@ nav{
 a:visited{
 	color: #414040;
 }
-a:hover{
+.x:hover{
 	font-weight: bold;
 }
 
@@ -103,11 +109,49 @@ a:hover{
 	background-color: none;
 }
 
-/*-------------------------------------------------------------------------------------*/
+/*---General closed-----------------------------------------------------------------------*/
 
+/*Picture*/
 #me{
 	position: relative;
-	top: 40vh;
+		top: 30vh;
 	width: 475px;
 	height: 700px;
+}
+
+/*div med paragrafferne louise melsted og louise@designbymelsted.dk*/
+.textboks{
+	margin-right: 0;
+	padding-right: 0;
+	border-right: none;
+}
+.p1{
+	font-family: 'PT Serif', serif;
+	font-size: 60px;
+	font-weight: bold;
+	color: #414040;
+	text-shadow: 1px 2px 1px rgba(87, 87, 87, 0.6);
+	Position: absolute;
+		left: 42vw;
+		top: 65vh;
+}
+.p2{
+	font-family: 'PT Serif', serif;
+	font-size: 50px;
+	color: #414040;
+	text-shadow: 1px 2px 1px rgba(87, 87, 87, 0.6);
+	Position: absolute;
+		left: 48vw;
+		top: 79vh;
+}
+
+/*All rights reserved*/
+Footer{
+	Width: 61vw;
+	height: 12vh;
+	border-top: 2px solid #414040;
+	Position: absolute;
+		left: 37vw;
+		top: 139vh;
+	text-align: right;
 }
