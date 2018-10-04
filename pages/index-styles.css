@@ -1,0 +1,113 @@
+@charset "utf-8";/*Nedennstående er kilde til fonttypen*/
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+
+/*Body reset*/
+body{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+
+
+/*Headpiece*/
+#hp{
+	background: url(../images/menu.tryout5.png);
+	border-bottom: 5px solid rgba(73, 73, 73, 0.5);
+	Position: absolute;
+	width: 98.7vw;
+	height: 30vh;
+}
+
+
+.h1-d{
+	font-family: 'great vibes', serif;
+	text-shadow: 6px 9px 6px rgba(70, 70, 70, 1);
+	color: #414040;
+	font-size: 70px;
+	position: absolute;
+		bottom: 75px;
+		left: 200px;
+	text-decoration: underline;	
+}
+
+.h1-bm{
+	font-family: 'great vibes', serif;
+	text-shadow: 6px 9px 6px rgba(70, 70, 70, 1);
+	color: #414040;
+	font-size: 50px;
+	position: absolute;
+		top: 85px;
+		left: 332px;
+	text-decoration: underline;
+}
+
+/*navigation: menu*/
+nav{
+	font-family: 'PT Serif', serif;
+	font-size: 20px;
+	color: #414040;
+	position: absolute;
+	top: 145px;
+	Left: 850px;
+}
+.contact{
+	border-left: 2px solid rgba(73, 73, 73, 0.5);
+}
+.navtext{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+a:visited{
+	color: #414040;
+}
+a:hover{
+	font-weight: bold;
+}
+
+/*Drop-down-buttons*/
+.dropdown-button{
+	background-color: none;
+	color: #414040;
+	padding: none;
+	border: none;
+	border-left: 2px solid rgba(73, 73, 73, 0.5);
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute; 
+	background-color: white;
+	min-width: 80px;
+	box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.3);
+	z-index: 1;
+}
+.dropdown-content a{
+	color: #414040;
+	padding: 12px 16px;
+	text-decoration: underline;
+	display: block;  
+}
+.dropdown-content a:hover{
+	Background-color: rgba(83, 82, 82, 0.3); 
+}
+.dropdown:hover .dropdown-content{
+	display:inline-block;
+}
+.dropdown:hover .dropdown-button{
+	background-color: none;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+#me{
+	position: relative;
+	top: 40vh;
+	width: 475px;
+	height: 700px;
+}
